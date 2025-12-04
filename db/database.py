@@ -3,7 +3,7 @@ from sqlalchemy.orm import sessionmaker, declarative_base
 
 # DATABASE_URL = "mysql+pymysql://root:@localhost:3306/ai_powerd"
 # Encode special characters in password
-DATABASE_URL = "mysql+pymysql://rajveerf_new:2Br%40zK03fWwb@localhost:3306/rajveerf_new"
+DATABASE_URL = "mysql+pymysql://rajveerf_new:2Br%40zK03fWwb@rajveerfacility.in:3306/rajveerf_new"
 engine = create_engine(
     DATABASE_URL,
     echo=False,
